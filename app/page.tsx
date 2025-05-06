@@ -82,7 +82,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <header className="flex items-center justify-between sticky top-0 bg-gray-50 z-50 text-center px-[100px]">
+      <header className="flex items-center justify-between sticky top-0 bg-gray-50 z-50 text-center px-[50px]">
         <div className="flex items-end gap-5">
           <Image src="/wwt_logo.png" alt="Logo" width={250} height={200} />
           <p className="text-sm -mb-0.5 font-bold text-gray-900">A California Innovation Company</p>
