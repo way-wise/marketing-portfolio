@@ -143,7 +143,7 @@ export default function PortfolioCard({
             <h3 className="text-xl font-bold mb-2">{item.title}</h3>{" "}
           </Link>
           <p className="text-gray-600 mb-4 line-clamp-2">{item.description}</p>
-          <div className="flex flex-wrap gap-2 mb-6">
+          {/* <div className="flex flex-wrap gap-2 mb-6">
             {item.technologies.map((tech, index) => (
               <span
                 key={index}
@@ -152,7 +152,7 @@ export default function PortfolioCard({
                 {tech}
               </span>
             ))}
-          </div>
+          </div> */}
         </div>
 
         {/* <div className="px-6 pb-6 flex justify-between">

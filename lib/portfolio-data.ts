@@ -212,27 +212,27 @@ export const portfolioItems: PortfolioItem[] = [
 export const sectionInfo = {
   "seo": {
     "title": "SEO Projects",
-    "description": "Explore my SEO projects with a range of features and capabilities and search engine optimization."
+    "description": "Explore Our SEO projects with a range of features and capabilities and search engine optimization."
   },
   "google ads": {
     "title": "Google Ads Projects",
-    "description": "Discover my Google Ads projects with a range of features and capabilities and google ads optimization."
+    "description": "Discover Our Google Ads projects with a range of features and capabilities and google ads optimization."
   },
   "meta ads": {
     "title": "Meta Ads Projects",
-    "description": "Discover my Meta Ads projects with a range of features and capabilities and meta ads optimization."
+    "description": "Discover Our Meta Ads projects with a range of features and capabilities and meta ads optimization."
   },
   "blog/article": {
     "title": "Blog/Article Projects",
-    "description": "Discover my Blog/Article projects with a range of features and capabilities and blog/article optimization."
+    "description": "Discover Our Blog/Article projects with a range of features and capabilities and blog/article optimization."
   },
   "digital branding": {
     "title": "Digital Branding Projects",
-    "description": "Discover my Digital Branding projects with a range of features and capabilities and digital branding optimization."
+    "description": "Discover Our Digital Branding projects with a range of features and capabilities and digital branding optimization."
   },
   "social media": {
     "title": "Social Media Projects",
-    "description": "Explore my Social Media projects with a range of features and capabilities."
+    "description": "Explore Our Social Media projects with a range of features and capabilities."
   }
 
 }
