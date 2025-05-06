@@ -4,9 +4,10 @@ import { cn } from "@/lib/utils"
 
 const categories = [
   { id: "seo", label: "SEO" },
-  { id: "onpage seo", label: "Onpage SEO" },
-  { id: "offpage seo", label: "Offpage SEO" },
-  { id: "backlinks", label: "Backlinks" },
+  { id: "google ads", label: "Google Ads" },
+  { id: "meta ads", label: "Meta Ads" },
+  { id: "blog/article", label: "Blog/Article" },
+  { id: "digital branding", label: "Digital Branding" },
 ]
 
 interface CategoryNavProps {
@@ -19,13 +20,13 @@ export default function CategoryNav({ activeCategory, onCategoryChange }: Catego
     switch (category) {
       case "seo":
         return "from-emerald-400 to-teal-600"
-      case "onpage seo":
+      case "google ads":
         return "from-purple-400 to-indigo-600"
-      case "offpage seo":
+      case "meta ads":
         return "from-rose-400 to-pink-600"
-      case "backlinks":
+      case "blog/article":
         return "from-amber-400 to-orange-600"
-      case "api":
+      case "digital branding":
         return "from-cyan-400 to-blue-600"
       default:
         return "from-gray-700 to-gray-900"
