@@ -6,7 +6,8 @@ const categories = [
   { id: "seo", label: "SEO" },
   { id: "google ads", label: "Google Ads" },
   { id: "meta ads", label: "Meta Ads" },
-  { id: "backlinks", label: "Backlinks" },
+  { id: "blog/article", label: "Blog/Article" },
+  { id: "digital branding", label: "Digital Branding" },
 ]
 
 interface CategoryNavProps {
@@ -23,9 +24,9 @@ export default function CategoryNav({ activeCategory, onCategoryChange }: Catego
         return "from-purple-400 to-indigo-600"
       case "meta ads":
         return "from-rose-400 to-pink-600"
-      case "backlinks":
+      case "blog/article":
         return "from-amber-400 to-orange-600"
-      case "api":
+      case "digital branding":
         return "from-cyan-400 to-blue-600"
       default:
         return "from-gray-700 to-gray-900"

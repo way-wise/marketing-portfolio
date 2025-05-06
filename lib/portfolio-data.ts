@@ -150,39 +150,43 @@ export const portfolioItems: PortfolioItem[] = [
   },
 
   {
-    id: "nocode-1",
-    title: "Customar Relationship",
-    description: "No-code solution for client .",
-    category: "nocode",
-    highlightKeyword: "CRM",
-    images: ["/no-code/nc-1.webp"],
-    technologies: ["Webflow", "Airtable", "Zapier"],
+    id: "blog/article-1",
+    title: "Blog/Article",
+    description: "Blog/Article for manage users and courses.",
+    category: "blog/article",
+    highlightKeyword: "Blog",
+    images: ["digital/Article Writing.jpg", "digital/Blog Writing.png", "digital/Guest Post 1.png"],
+    technologies: ["Node.js", "Socket.io", "PostgreSQL"],
     demoUrl: "https://example.com/demo",
-    completionDate: "February 2023",
+    githubUrl: "https://github.com/example/project",
+    completionDate: "August 2023",
     features: [
-      "Client onboarding workflow",
-      "Document sharing and management",
-      "Automated notifications",
-      "Client feedback collection",
+      "Real-time message delivery",
+      "User presence detection",
+      "Message history storage",
+      "End-to-end encryption",
     ],
   },
+
   {
-    id: "nocode-2",
-    title: "Wordpress AI theme",
-    description: "Wordpress AI theme with AI features and easy to manage.",
-    category: "nocode",
-    highlightKeyword: "AI",
-    images: ["/no-code/nc-2.webp"],
-    technologies: ["Bubble", "Stripe", "Memberstack"],
+    id: "digital branding-1",
+    title: "Digital Branding",
+    description: "Digital Branding for manage users and courses.",
+    category: "digital branding",
+    highlightKeyword: "Digital Branding",
+    images: ["digital/Digital Branding.webp"],
+    technologies: ["Node.js", "Socket.io", "PostgreSQL"],
     demoUrl: "https://example.com/demo",
-    completionDate: "July 2023",
+    githubUrl: "https://github.com/example/project",
+    completionDate: "August 2023",
     features: [
-      "Subscription management",
-      "Content access control",
-      "Member directory and profiles",
-      "Integrated payment processing",
+      "Real-time message delivery",
+      "User presence detection",
+      "Message history storage",
+      "End-to-end encryption",
     ],
   },
+
   {
     id: "nocode-2",
     title: "Wordpress AI theme",
@@ -233,9 +237,13 @@ export const sectionInfo = {
     "title": "Meta Ads Projects",
     "description": "Discover my Meta Ads projects with a range of features and capabilities and meta ads optimization."
   },
-  "backlinks": {
-    "title": "Backlinks Projects",
-    "description": "Discover my Backlinks projects with a range of features and capabilities and backlinks optimization."
+  "blog/article": {
+    "title": "Blog/Article Projects",
+    "description": "Discover my Blog/Article projects with a range of features and capabilities and blog/article optimization."
+  },
+  "digital branding": {
+    "title": "Digital Branding Projects",
+    "description": "Discover my Digital Branding projects with a range of features and capabilities and digital branding optimization."
   },
   "nocode": {
     "title": "No-code Projects",
