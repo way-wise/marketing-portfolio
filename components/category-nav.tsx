@@ -17,13 +17,13 @@ interface CategoryNavProps {
 export default function CategoryNav({ activeCategory, onCategoryChange }: CategoryNavProps) {
   const getCategoryGradient = (category: string) => {
     switch (category) {
-      case "backend":
+      case "seo":
         return "from-emerald-400 to-teal-600"
-      case "mobile":
+      case "onpage seo":
         return "from-purple-400 to-indigo-600"
-      case "frontend":
+      case "offpage seo":
         return "from-rose-400 to-pink-600"
-      case "nocode":
+      case "backlinks":
         return "from-amber-400 to-orange-600"
       case "api":
         return "from-cyan-400 to-blue-600"
