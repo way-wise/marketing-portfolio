@@ -91,7 +91,7 @@ export default function PortfolioCard({
                     alt={`${item.title} screenshot ${index + 1}`}
                     width={600}
                     height={400}
-                    className="w-full h-96 object-cover"
+                    className="w-full h-96 object-contain"
                   />
                 </div>
               ))}
