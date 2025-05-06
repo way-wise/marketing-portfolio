@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils"
 const categories = [
   { id: "seo", label: "SEO" },
   { id: "google ads", label: "Google Ads" },
-  { id: "offpage seo", label: "Offpage SEO" },
+  { id: "meta ads", label: "Meta Ads" },
   { id: "backlinks", label: "Backlinks" },
 ]
 
@@ -21,7 +21,7 @@ export default function CategoryNav({ activeCategory, onCategoryChange }: Catego
         return "from-emerald-400 to-teal-600"
       case "google ads":
         return "from-purple-400 to-indigo-600"
-      case "offpage seo":
+      case "meta ads":
         return "from-rose-400 to-pink-600"
       case "backlinks":
         return "from-amber-400 to-orange-600"
