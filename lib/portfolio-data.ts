@@ -112,23 +112,24 @@ export const portfolioItems: PortfolioItem[] = [
 
 
   {
-    id: "mobile-1",
-    title: "Food Ordering App",
-    description: "Mobile application for ordering food with tracking workouts and nutrition with progress analytics.",
-    category: "onpage seo",
-    highlightKeyword: "Food",
-    images: ["/mobile/app-1.png", "/mobile/app-2.png", "/mobile/app-3.png", "/mobile/app-4.png", "/mobile/app-5.png", "/mobile/app-6.png"],
-    technologies: ["React Native", "Redux", "Firebase"],
+    id: "Google Ads-1",
+    title: "Google Ads",
+    description: "Google Ads for manage users and courses and analytics.",
+    category: "google ads",
+    highlightKeyword: "Google Ads",
+    images: ["digital/Google Ads 2.png", "digital/Google Ads 3.png", "digital/Google Ads 4.jpg", "digital/Google Ads 1.jpg"],
+    technologies: ["Node.js", "Socket.io", "PostgreSQL"],
     demoUrl: "https://example.com/demo",
     githubUrl: "https://github.com/example/project",
-    completionDate: "March 2023",
+    completionDate: "August 2023",
     features: [
-      "Workout tracking and planning",
-      "Nutrition logging and analysis",
-      "Progress visualization",
-      "Social sharing capabilities",
+      "Real-time message delivery",
+      "User presence detection",
+      "Message history storage",
+      "End-to-end encryption",
     ],
   },
+
   {
     id: "mobile-2",
     title: "E-commerce App",
@@ -393,12 +394,12 @@ export const portfolioItems: PortfolioItem[] = [
 
 export const sectionInfo = {
   "seo": {
-    "title": "Backend Projects",
-    "description": "Explore my backend projects with a focus on scalability and performance."
+    "title": "SEO Projects",
+    "description": "Explore my SEO projects with a range of features and capabilities and search engine optimization."
   },
-  "mobile": {
-    "title": "Mobile Projects",
-    "description": "Discover my mobile app projects with a range of features and capabilities."
+  "google ads": {
+    "title": "Google Ads Projects",
+    "description": "Discover my Google Ads projects with a range of features and capabilities and google ads optimization."
   },
   "frontend": {
     "title": "Frontend Projects",
