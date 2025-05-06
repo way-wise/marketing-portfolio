@@ -3,9 +3,10 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ExternalLink, Github } from "lucide-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { PortfolioItem } from "@/lib/portfolio-data";
+import useEmblaCarousel from "embla-carousel-react";
 
 interface PortfolioCardProps {
   item: PortfolioItem;
@@ -16,6 +17,19 @@ export default function PortfolioCard({
   item,
   isHighlighted,
 }: PortfolioCardProps) {
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
+  const [selectedIndex, setSelectedIndex] = useState(0);
+
+  const scrollPrev = () => emblaApi && emblaApi.scrollPrev();
+  const scrollNext = () => emblaApi && emblaApi.scrollNext();
+
+  const onSelect = () => {
+    if (!emblaApi) return;
+    setSelectedIndex(emblaApi.selectedScrollSnap());
+  };
+
+  emblaApi?.on("select", onSelect);
+
   const getCategoryColor = (category: string) => {
     switch (category) {
       case "backend":
@@ -68,13 +82,52 @@ export default function PortfolioCard({
         )}
       >
         <div className="relative group-hover:scale-105 transition-transform duration-500">
-          <Image
-            src={item.image || "/placeholder.svg"}
-            alt={item.title}
-            width={600}
-            height={400}
-            className="w-full h-96 object-cover"
-          />
+          <div className="overflow-hidden" ref={emblaRef}>
+            <div className="flex">
+              {item.images && item.images.map((image, index) => (
+                <div key={index} className="flex-[0_0_100%] min-w-0">
+                  <Image
+                    src={image}
+                    alt={`${item.title} screenshot ${index + 1}`}
+                    width={600}
+                    height={400}
+                    className="w-full h-96 object-cover"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Navigation Buttons */}
+          <button
+            className="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"
+            onClick={scrollPrev}
+          >
+            <ChevronLeft size={20} />
+          </button>
+          <button
+            className="absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"
+            onClick={scrollNext}
+          >
+            <ChevronRight size={20} />
+          </button>
+
+          {/* Dots Indicator */}
+          {item.images && item.images.length > 1 && (
+            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
+              {item.images.map((_, index) => (
+                <button
+                  key={index}
+                  className={cn(
+                    "w-2 h-2 rounded-full transition-all",
+                    selectedIndex === index ? "bg-white scale-125" : "bg-white/50"
+                  )}
+                  onClick={() => emblaApi?.scrollTo(index)}
+                />
+              ))}
+            </div>
+          )}
+
           <span
             className={cn(
               "absolute top-4 left-4 text-white px-3 py-1 rounded-full text-sm font-medium",
@@ -86,9 +139,9 @@ export default function PortfolioCard({
         </div>
 
         <div className="p-6">
-          <p className="block">
+          <Link href={`/project/${item.id}`} className="block">
             <h3 className="text-xl font-bold mb-2">{item.title}</h3>{" "}
-          </p>
+          </Link>
           <p className="text-gray-600 mb-4 line-clamp-2">{item.description}</p>
           <div className="flex flex-wrap gap-2 mb-6">
             {item.technologies.map((tech, index) => (
