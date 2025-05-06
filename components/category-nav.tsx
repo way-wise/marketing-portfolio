@@ -8,6 +8,7 @@ const categories = [
   { id: "meta ads", label: "Meta Ads" },
   { id: "blog/article", label: "Blog/Article" },
   { id: "digital branding", label: "Digital Branding" },
+  { id: "social media", label: "Social Media" },
 ]
 
 interface CategoryNavProps {
@@ -28,6 +29,8 @@ export default function CategoryNav({ activeCategory, onCategoryChange }: Catego
         return "from-amber-400 to-orange-600"
       case "digital branding":
         return "from-cyan-400 to-blue-600"
+      case "social media":
+        return "from-orange-400 to-orange-600"
       default:
         return "from-gray-700 to-gray-900"
     }

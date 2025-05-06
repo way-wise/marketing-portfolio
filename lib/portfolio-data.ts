@@ -188,39 +188,24 @@ export const portfolioItems: PortfolioItem[] = [
   },
 
   {
-    id: "nocode-2",
-    title: "Wordpress AI theme",
-    description: "Wordpress AI theme with AI features and easy to manage.",
-    category: "nocode",
-    highlightKeyword: "AI",
-    images: ["/no-code/nc-2.webp"],
-    technologies: ["Bubble", "Stripe", "Memberstack"],
+    id: "social media-1",
+    title: "Social Media",
+    description: "Social Media for manage users and courses and analytics.",
+    category: "social media",
+    highlightKeyword: "Social Media",
+    images: ["digital/Social Media.webp"],
+    technologies: ["Node.js", "Socket.io", "PostgreSQL"],
     demoUrl: "https://example.com/demo",
-    completionDate: "July 2023",
+    githubUrl: "https://github.com/example/project",
+    completionDate: "August 2023",
     features: [
-      "Subscription management",
-      "Content access control",
-      "Member directory and profiles",
-      "Integrated payment processing",
+      "Real-time message delivery",
+      "User presence detection",
+      "Message history storage",
+      "End-to-end encryption",
     ],
   },
-  {
-    id: "nocode-2",
-    title: "Wordpress AI theme",
-    description: "Wordpress AI theme with AI features and easy to manage.",
-    category: "nocode",
-    highlightKeyword: "AI",
-    images: ["/no-code/nc-2.webp"],
-    technologies: ["Bubble", "Stripe", "Memberstack"],
-    demoUrl: "https://example.com/demo",
-    completionDate: "July 2023",
-    features: [
-      "Subscription management",
-      "Content access control",
-      "Member directory and profiles",
-      "Integrated payment processing",
-    ],
-  },
+
 ]
 
 
@@ -245,13 +230,9 @@ export const sectionInfo = {
     "title": "Digital Branding Projects",
     "description": "Discover my Digital Branding projects with a range of features and capabilities and digital branding optimization."
   },
-  "nocode": {
-    "title": "No-code Projects",
-    "description": "Explore my no-code projects with a range of features and capabilities."
-  },
-  "api": {
-    "title": "API Projects",
-    "description": "Discover my API projects with a focus on scalability and performance."
+  "social media": {
+    "title": "Social Media Projects",
+    "description": "Explore my Social Media projects with a range of features and capabilities."
   }
 
 }
