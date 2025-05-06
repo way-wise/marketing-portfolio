@@ -72,6 +72,7 @@ export default function PortfolioCard({
           [`outline outline-2 outline-offset-2 outline-orange-500`]: isHighlighted,
         }
       )}
+      style={{maxWidth: "400px"}}
     >
       <div
         className={cn(
