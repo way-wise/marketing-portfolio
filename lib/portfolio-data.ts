@@ -16,12 +16,11 @@ export interface PortfolioItem {
 
 export const portfolioItems: PortfolioItem[] = [
   {
-    id: "backend-1",
-    title: "Deshboard",
-    description: "Deshboard for manage users and products and analytics.",
+    id: "seo-1",
+    title: "Google Search",
+    description: "e-learning deshboard for manage users and courses.",
     category: "seo",
-    highlightKeyword: "Laravel Dashboard",
-    images: ["/web/web-6.webp"],
+    images: ["digital/Google Search 2.png", "digital/Google Search 1.jpg", "digital/Google Search 3.png", "digital/Google Analytic.jpg"],
     technologies: ["Node.js", "Socket.io", "PostgreSQL"],
     demoUrl: "https://example.com/demo",
     githubUrl: "https://github.com/example/project",
@@ -33,8 +32,9 @@ export const portfolioItems: PortfolioItem[] = [
       "End-to-end encryption",
     ],
   },
+
   {
-    id: "backend-2",
+    id: "seo-2",
     title: "E-commerce Backend",
     description: "A scalable backend system for e-commerce platforms with inventory management.",
     category: "seo",
@@ -441,7 +441,7 @@ export const portfolioItems: PortfolioItem[] = [
 
 
 export const sectionInfo = {
-  "backend": {
+  "seo": {
     "title": "Backend Projects",
     "description": "Explore my backend projects with a focus on scalability and performance."
   },
