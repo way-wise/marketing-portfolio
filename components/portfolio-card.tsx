@@ -67,7 +67,7 @@ export default function PortfolioCard({
   return (
     <div
       className={cn(
-        "group rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl bg-white shadow-md p-0",
+        "group rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl bg-white shadow-md p-0 max-w-[400px]",
         {
           [`outline outline-2 outline-offset-2 outline-orange-500`]: isHighlighted,
         }

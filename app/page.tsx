@@ -82,7 +82,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <header className="flex items-center justify-between sticky top-0 bg-gray-50 z-50 text-center !px-20">
+      <header className="flex items-center justify-between sticky top-0 bg-gray-50 z-50 text-center !px-20" style={{ padding: "0px 80px" }}>
         <div className="flex items-end gap-5">
           <Image src="/wwt_logo.png" alt="Logo" width={250} height={200} />
           <p className="text-sm -mb-0.5 font-bold text-gray-900">A California Innovation Company</p>
@@ -118,7 +118,7 @@ export default function Home() {
                 {sectionInfo[category as SectionKey]?.description || "Explore my work in this category."}
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            <div className="flex flex-wrap justify-center gap-8">
               {itemsByCategory[category].map((item, index) => (
                 <PortfolioCard
                   key={item.id + index}
