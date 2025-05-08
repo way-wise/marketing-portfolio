@@ -1,6 +1,8 @@
 "use client"
 
 import { cn } from "@/lib/utils"
+import { useRouter, useSearchParams } from "next/navigation"
+import { useEffect } from "react"
 
 const categories = [
   { id: "seo", label: "SEO" },
@@ -17,6 +19,23 @@ interface CategoryNavProps {
 }
 
 export default function CategoryNav({ activeCategory, onCategoryChange }: CategoryNavProps) {
+  const router = useRouter()
+  const searchParams = useSearchParams()
+
+  useEffect(() => {
+    const categoryParam = searchParams.get("category")
+    if (categoryParam && categories.some(cat => cat.id === categoryParam)) {
+      onCategoryChange(categoryParam)
+    }
+  }, [searchParams, onCategoryChange])
+
+  const handleCategoryClick = (category: string) => {
+    const params = new URLSearchParams(searchParams.toString())
+    params.set("category", category)
+    router.push(`?${params.toString()}`)
+    onCategoryChange(category)
+  }
+
   const getCategoryGradient = (category: string) => {
     switch (category) {
       case "seo":
@@ -41,7 +60,7 @@ export default function CategoryNav({ activeCategory, onCategoryChange }: Catego
       {categories.map((category) => (
         <button
           key={category.id}
-          onClick={() => onCategoryChange(category.id)}
+          onClick={() => handleCategoryClick(category.id)}
           className={cn(
             "px-6 py-3 rounded-full font-medium transition-all",
             activeCategory === category.id
