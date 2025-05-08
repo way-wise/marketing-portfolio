@@ -8,7 +8,7 @@ const categories = [
   { id: "seo", label: "SEO" },
   { id: "google ads", label: "Google Ads" },
   { id: "meta ads", label: "Meta Ads" },
-  { id: "blog/article", label: "Blog/Article" },
+  { id: "blog article", label: "Blog/Article" },
   { id: "digital branding", label: "Digital Branding" },
   { id: "social media", label: "Social Media" },
 ]
