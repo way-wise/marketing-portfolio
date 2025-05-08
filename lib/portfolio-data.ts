@@ -112,7 +112,7 @@ export const portfolioItems: PortfolioItem[] = [
 
 
   {
-    id: "Google Ads-1",
+    id: "GoogleAds-1",
     title: "Google Ads",
     description: "Drive targeted traffic and maximize ROI with expertly managed Google Ads campaigns.",
     category: "google ads",
@@ -131,7 +131,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
 
   {
-    id: "meta ads-1",
+    id: "metaads-1",
     title: "Meta Ads",
     description: "Reach your audience on Facebook and Instagram with data-driven Meta advertising strategies.",
     category: "meta ads",
@@ -169,7 +169,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
 
   {
-    id: "digital branding-1",
+    id: "digitalbranding-1",
     title: "Digital Branding",
     description: "Build a strong online presence and brand identity across all digital platforms.",
     category: "digital branding",
@@ -188,7 +188,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
 
   {
-    id: "social media-1",
+    id: "socialmedia-1",
     title: "Social Media",
     description: "Grow your audience and increase engagement with strategic social media content and management.",
     category: "social media",
