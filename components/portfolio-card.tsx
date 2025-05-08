@@ -143,7 +143,7 @@ export default function PortfolioCard({
           <Link href={`/project/${item.id}`} className="block">
             <h3 className="text-xl font-bold mb-2">{item.title}</h3>{" "}
           </Link>
-          <p className="text-gray-600 mb-4 line-clamp-2">{item.description}</p>
+          <p className="text-gray-600 mb-4">{item.description}</p>
           {/* <div className="flex flex-wrap gap-2 mb-6">
             {item.technologies.map((tech, index) => (
               <span
