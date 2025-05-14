@@ -206,9 +206,9 @@ export const portfolioItems: PortfolioItem[] = [
     id: "Google Ads- 5",
     title: "Home Decor - Google Search Ads",
     description: "e-learning deshboard for manage users and courses.",
-    category: "backend",
-highlightKeyword: "Home Decor"
-    images: [“Google Search Ads 3.png”],
+    category: "google ads",  
+    highlightKeyword: "Home Decor",
+    images: ["digital/Google Search Ads 3.png"],
     technologies: ["Node.js", "Socket.io", "PostgreSQL"],
     demoUrl: "https://example.com/demo",
     githubUrl: "https://github.com/example/project",
