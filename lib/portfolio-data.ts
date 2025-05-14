@@ -220,6 +220,24 @@ export const portfolioItems: PortfolioItem[] = [
       "End-to-end encryption",
     ],
   },
+  {
+    id: "Google Ads- 6",
+    title: "Online Reservation Industry - Google Display Ads",
+    description: "e-learning deshboard for manage users and courses.",
+    category: "google ads",  
+    highlightKeyword: "Online Reservation",
+    images: ["digital/Google Display Ads 2.png"],
+    technologies: ["Node.js", "Socket.io", "PostgreSQL"],
+    demoUrl: "https://example.com/demo",
+    githubUrl: "https://github.com/example/project",
+    completionDate: "August 2023",
+    features: [
+      "Real-time message delivery",
+      "User presence detection",
+      "Message history storage",
+      "End-to-end encryption",
+    ],
+  },
 
 
 
