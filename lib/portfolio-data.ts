@@ -172,7 +172,7 @@ export const portfolioItems: PortfolioItem[] = [
     id: "blog/article-1",
     title: "Blog/Article",
     description: "Engage readers and boost SEO with well-crafted, keyword-optimized blog and article content.",
-    category: "blog/article",
+    category: "blog article",
     highlightKeyword: "Blog",
     images: ["digital/Article Writing.jpg", "digital/Blog Writing.png", "digital/Guest Post 1.png"],
     technologies: ["Node.js", "Socket.io", "PostgreSQL"],
