@@ -148,6 +148,82 @@ export const portfolioItems: PortfolioItem[] = [
       "End-to-end encryption",
     ],
   },
+  {
+    id: "Google Ads- 2",
+    title: "Job Marketplace - YouTube Ads",
+    description: "e-learning deshboard for manage users and courses.",
+    category: "google ads",
+    highlightKeyword: "Job Marketplace",
+    images: ["digital/Web 2.0 Backlinks.png"],
+    technologies: ["Node.js", "Socket.io", "PostgreSQL"],
+    demoUrl: "https://example.com/demo",
+    githubUrl: "https://github.com/example/project",
+    completionDate: "August 2023",
+    features: [
+      "Real-time message delivery",
+      "User presence detection",
+      "Message history storage",
+      "End-to-end encryption",
+    ],
+  },
+  {
+    id: "Google Ads- 3",
+    title: "Online Gift Shop - Google Discovery Ads",
+    description: "e-learning deshboard for manage users and courses.",
+    category: "google ads",  
+    highlightKeyword: "Online Gift Shop",
+    images: ["digital/google discovery ads.gif"],
+    technologies: ["Node.js", "Socket.io", "PostgreSQL"],
+    demoUrl: "https://example.com/demo",
+    githubUrl: "https://github.com/example/project",
+    completionDate: "August 2023",
+    features: [
+      "Real-time message delivery",
+      "User presence detection",
+      "Message history storage",
+      "End-to-end encryption",
+    ],
+  },
+  {
+    id: "Google Ads- 4",
+    title: "Finance Industry - Google Video Ads",
+    description: "e-learning deshboard for manage users and courses.",
+    category: "google ads",  
+    highlightKeyword: "Finance Industry",
+    images: ["digital/Google video ads.gif"],
+    technologies: ["Node.js", "Socket.io", "PostgreSQL"],
+    demoUrl: "https://example.com/demo",
+    githubUrl: "https://github.com/example/project",
+    completionDate: "August 2023",
+    features: [
+      "Real-time message delivery",
+      "User presence detection",
+      "Message history storage",
+      "End-to-end encryption",
+    ],
+  },
+  {
+    id: "Google Ads- 5",
+    title: "Home Decor - Google Search Ads",
+    description: "e-learning deshboard for manage users and courses.",
+    category: "backend",
+highlightKeyword: "Home Decor"
+    images: [“Google Search Ads 3.png”],
+    technologies: ["Node.js", "Socket.io", "PostgreSQL"],
+    demoUrl: "https://example.com/demo",
+    githubUrl: "https://github.com/example/project",
+    completionDate: "August 2023",
+    features: [
+      "Real-time message delivery",
+      "User presence detection",
+      "Message history storage",
+      "End-to-end encryption",
+    ],
+  },
+
+
+
+
 
   {
     id: "metaads-1",
