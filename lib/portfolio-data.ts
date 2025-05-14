@@ -109,6 +109,25 @@ export const portfolioItems: PortfolioItem[] = [
       "End-to-end encryption",
     ],
   },
+  {
+    id: "SEO-6",
+    title: "Real Estate-Content SEO",
+    description: "Optimize your real estate website for search engines and improve your online presence.",
+    category: "seo",
+    highlightKeyword: "Real Estate",
+    images: ["digital/Real Estate-Content SEO.png"],
+    technologies: ["Node.js", "Socket.io", "PostgreSQL"],
+    demoUrl: "https://example.com/demo",
+    githubUrl: "https://github.com/example/project",
+    completionDate: "August 2023",
+    features: [
+      "Real-time message delivery",
+      "User presence detection",
+      "Message history storage",
+      "End-to-end encryption",
+    ],
+  },
+
 
 
   {
