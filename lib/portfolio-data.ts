@@ -585,7 +585,7 @@ highlightKeyword: "E-commerce",
   {
     id: "socialmedia-2",
     title: "Grocery-Youtube",
-    description: "e-learning deshboard for manage users and courses.",
+    description: "Executed YouTube marketing for a grocery business, leveraging recipe and haul videos to boost awareness and local foot traffic.",
     category: "social media",
     highlightKeyword: "Grocery",
     images: ["digital/Grocary youtube.jpg"],
