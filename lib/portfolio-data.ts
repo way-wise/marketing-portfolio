@@ -546,7 +546,7 @@ highlightKeyword: "E-commerce",
 {
     id: "digitalbranding-6",
     title: "Garments-Digital Branding",
-    description: "e-learning deshboard for manage users and courses.",
+    description: "Created and managed digital branding campaigns for a garments brand, highlighting product quality and fashion appeal to engage target customers.",
     category: "digital branding",
     highlightKeyword: "Garments",
     images: ["digital/Digital brand cloth.jpg"],
