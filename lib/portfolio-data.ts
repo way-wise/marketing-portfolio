@@ -520,6 +520,24 @@ highlightKeyword: "E-commerce",
       "End-to-end encryption",
     ],
   },
+  {
+    id: "socialmedia-3",
+    title: "Real Estate-Linkedin",
+    description: "e-learning deshboard for manage users and courses.",
+    category: "social media",
+    highlightKeyword: "Real Estate",
+    images: ["digital/Linkedin Post.jpeg"],
+    technologies: ["Node.js", "Socket.io", "PostgreSQL"],
+    demoUrl: "https://example.com/demo",
+    githubUrl: "https://github.com/example/project",
+    completionDate: "August 2023",
+    features: [
+      "Real-time message delivery",
+      "User presence detection",
+      "Message history storage",
+      "End-to-end encryption",
+    ],
+  },
   
 
 
