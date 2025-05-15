@@ -300,7 +300,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     id: "metaads-4",
     title: "Beauty Product Industry - Meta Video Ads",
-    description: "e-learning deshboard for manage users and courses.",
+    description: "Produced performance-focused Meta Video Ads to promote beauty products, showcasing usage tutorials and testimonials to boost product interest.",
     category: "meta ads",  
     highlightKeyword: "Beauty Product",
     images: ["digital/Meta Video Ads.webp"],
