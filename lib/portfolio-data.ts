@@ -151,7 +151,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     id: "Google Ads- 2",
     title: "Job Marketplace - YouTube Ads",
-    description: "e-learning deshboard for manage users and courses.",
+    description: "Executed targeted YouTube ad campaigns for a job marketplace, enhancing brand visibility and driving qualified traffic through engaging video content.",
     category: "google ads",
     highlightKeyword: "Job Marketplace",
     images: ["digital/Web 2.0 Backlinks.png"],
@@ -169,7 +169,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     id: "Google Ads- 3",
     title: "Online Gift Shop - Google Discovery Ads",
-    description: "e-learning deshboard for manage users and courses.",
+    description: "Utilized Google Discovery Ads to showcase personalized gift items to high-intent audiences, resulting in increased product discovery and conversions.",
     category: "google ads",  
     highlightKeyword: "Online Gift Shop",
     images: ["digital/google discovery ads.gif"],
@@ -187,7 +187,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     id: "Google Ads- 4",
     title: "Finance Industry - Google Video Ads",
-    description: "e-learning deshboard for manage users and courses.",
+    description: "Created compelling video ad campaigns on Google to promote financial services, achieving higher engagement rates and building trust among potential clients.",
     category: "google ads",  
     highlightKeyword: "Finance Industry",
     images: ["digital/Google video ads.gif"],
@@ -205,7 +205,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     id: "Google Ads- 5",
     title: "Home Decor - Google Search Ads",
-    description: "e-learning deshboard for manage users and courses.",
+    description: " Managed high-converting Google Search Ads for a home decor brand, targeting purchase-intent keywords to boost website traffic and sales.",
     category: "google ads",  
     highlightKeyword: "Home Decor",
     images: ["digital/Google Search Ads 3.png"],
@@ -223,7 +223,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     id: "Google Ads- 6",
     title: "Online Reservation Industry - Google Display Ads",
-    description: "e-learning deshboard for manage users and courses.",
+    description: "Designed and optimized Google Display Ads for a reservation platform, increasing awareness and driving leads through visually appealing creatives.",
     category: "google ads",  
     highlightKeyword: "Online Reservation",
     images: ["digital/Google Display ads 2.png"],
@@ -264,7 +264,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     id: "metaads-2",
     title: "Car Industry - Meta Lead Ads",
-    description: "e-learning deshboard for manage users and courses.",
+    description: "Launched Meta Lead Ads campaigns for an automotive business, generating quality leads with seamless mobile forms and strong call-to-actions.",
     category: "meta ads",  
     highlightKeyword: "Car Industry",
     images: ["digital/Meta Lead Ads.webp"],
@@ -282,7 +282,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     id: "metaads-3",
     title: "Woman Glasses - Meta Carousel Ads",
-    description: "e-learning deshboard for manage users and courses.",
+    description: "Created interactive Meta Carousel Ads for women’s eyewear, highlighting various styles and driving engagement through swipeable product visuals.",
     category: "meta ads",  
     highlightKeyword: "Woman Glasses",
     images: ["digital/Meta Carousel Ads.webp"],
