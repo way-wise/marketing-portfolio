@@ -492,7 +492,7 @@ export const portfolioItems: PortfolioItem[] = [
 {
     id: "digitalbranding-3",
     title: "E-commerce-Digital Branding",
-    description: "e-learning deshboard for manage users and courses.",
+    description: "Developed a comprehensive digital branding approach for an e-commerce store, ensuring consistent messaging and high brand recall across platforms.",
     category: "digital branding",
 highlightKeyword: "E-commerce",
     images: ["digital/Digital Branding E commarce.jpg"],
