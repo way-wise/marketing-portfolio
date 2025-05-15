@@ -318,7 +318,7 @@ export const portfolioItems: PortfolioItem[] = [
 {
     id: "metaads-5",
     title: "Agency Industry - Meta Image Ads",
-    description: "e-learning deshboard for manage users and courses.",
+    description: "Designed clean and branded Meta Image Ads for a digital agency, enhancing reach and delivering clear service messages to a targeted audience.",
     category: "meta ads",  
     highlightKeyword: "Agency",
     images: ["digital/Meta Image ads.png"],
