@@ -528,7 +528,7 @@ highlightKeyword: "E-commerce",
 {
     id: "digitalbranding-5",
     title: "Training Industry-Digital Branding",
-    description: "e-learning deshboard for manage users and courses.",
+    description: "Crafted strategic branding content for a training institute, boosting credibility, reach, and student enrollments through digital platforms.",
     category: "digital branding",
     highlightKeyword: "Training Industry",
     images: ["digital/Digital Branding Training.jpg"],
