@@ -556,6 +556,24 @@ highlightKeyword: "E-commerce",
       "End-to-end encryption",
     ],
   },
+  {
+    id: "socialmedia-5",
+    title: "Manufacture Industry-Facebook",
+    description: "e-learning deshboard for manage users and courses.",
+    category: "social media",
+    highlightKeyword: "Manufacture Industry",
+    images: ["digital/manufacture facebook.jpg"],
+    technologies: ["Node.js", "Socket.io", "PostgreSQL"],
+    demoUrl: "https://example.com/demo",
+    githubUrl: "https://github.com/example/project",
+    completionDate: "August 2023",
+    features: [
+      "Real-time message delivery",
+      "User presence detection",
+      "Message history storage",
+      "End-to-end encryption",
+    ],
+  },
   
 
 
