@@ -336,7 +336,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     id: "metaads-6",
     title: "Women Accessories Industry - Meta Massaging Ads",
-    description: "e-learning deshboard for manage users and courses.",
+    description: "Ran Meta Messaging Ads to drive direct conversations for a women’s accessories brand, improving engagement and real-time customer support.",
     category: "meta ads",  
     highlightKeyword: "Women Accessories",
     images: ["digital/Meta Massaging Ads.png"],
