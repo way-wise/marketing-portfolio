@@ -510,7 +510,7 @@ highlightKeyword: "E-commerce",
 {
     id: "digitalbranding-4",
     title: "Food Industry-Digital Branding",
-    description: "e-learning deshboard for manage users and courses.",
+    description: "Implemented brand identity campaigns for food products, focusing on visual storytelling and customer loyalty across digital channels.",
     category: "digital branding",
     highlightKeyword: "Food Industry",
     images: ["digital/Digital Branding Food.png"],
