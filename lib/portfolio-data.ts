@@ -474,7 +474,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     id: "digitalbranding-2",
     title: "Real Estate-Digital Branding",
-    description: "e-learning deshboard for manage users and courses.",
+    description: "Built a strong digital branding strategy for a real estate company using multi-platform campaigns, enhancing online reputation and client trust.",
     category: "digital branding",
     highlightKeyword: "Construction",
     images: ["digital/Digital Branding real estate.jpg"],
