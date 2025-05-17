@@ -82,22 +82,28 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <header className="flex items-center justify-between sticky top-0 bg-gray-50 z-50 text-center !px-20" style={{ padding: "0px 80px" }}>
-        <div className="flex items-end gap-5">
-          <Image src="/wwt_logo.png" alt="Logo" width={250} height={200} />
-          <p className="text-sm -mb-0.5 font-bold text-gray-900">A California Innovation Company</p>
+        <div className="flex flex-col items-center justify-between bg-orange-500" style={{ padding: "10px 80px" }}>
+          <h2 className="text-white font-bold leading-none" style={{ fontSize: "26px" }}>Our Digital Marketing Dynamic Portfolio</h2>
+          <a href="mailto:support@waywisetech.com" className="text-black font-bold text-sm mt-2 block">support@waywisetech.com</a>
         </div>
-        <div>
-          <h2 className="text-3xl text-orange-600 font-bold">Our Dynamic Portfolio</h2>
-          <a href="mailto:support@waywisetech.com" className="text-orange-600 font-bold text-sm mt-2 block">support@waywisetech.com</a>
+        <div className="flex items-center justify-between sticky top-0 z-50 bg-gray-50" style={{ padding: "10px 80px" }}>
+          <div className="flex items-end gap-1">
+            <Image src="/wwt_logo.png" alt="Logo" width={250} height={200} />
+            <p className="text-sm -mb-0.5 font-bold text-gray-900">A California Innovation Company</p>
+          </div>
+          {/* <div>
+            <h2 className="text-orange-600 font-bold leading-none" style={{ fontSize: "26px" }}>Our Digital Marketing Dynamic Portfolio</h2>
+            <a href="mailto:support@waywisetech.com" className="text-black font-bold text-sm mt-2 block">support@waywisetech.com</a>
+          </div> */}
+          <div className="max-w-4xl  py-5 ">
+            <CategoryNav
+              activeCategory={activeCategory}
+              onCategoryChange={handleCategoryChange}
+            />
+          </div>
+
         </div>
-        <div className="max-w-4xl  py-5 ">
-          <CategoryNav
-            activeCategory={activeCategory}
-            onCategoryChange={handleCategoryChange}
-          />
-        </div>
-      </header>
+
 
       {/* Portfolio Sections - One for each category */}
       {categories.map((category) => (
