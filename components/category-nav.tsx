@@ -16,9 +16,10 @@ const categories = [
 interface CategoryNavProps {
   activeCategory: string
   onCategoryChange: (category: string) => void
+  variant?: "default" | "mobile"
 }
 
-export default function CategoryNav({ activeCategory, onCategoryChange }: CategoryNavProps) {
+export default function CategoryNav({ activeCategory, onCategoryChange, variant = "default" }: CategoryNavProps) {
   const router = useRouter()
   const searchParams = useSearchParams()
 
@@ -30,9 +31,12 @@ export default function CategoryNav({ activeCategory, onCategoryChange }: Catego
   }, [searchParams, onCategoryChange])
 
   const handleCategoryClick = (category: string) => {
-    const params = new URLSearchParams(searchParams.toString())
-    params.set("category", category)
-    router.push(`?${params.toString()}`)
+    // Only update URL for desktop variant to avoid navigation issues in mobile
+    if (variant === "default") {
+      const params = new URLSearchParams(searchParams.toString())
+      params.set("category", category)
+      router.push(`?${params.toString()}`)
+    }
     onCategoryChange(category)
   }
 
@@ -55,6 +59,28 @@ export default function CategoryNav({ activeCategory, onCategoryChange }: Catego
     }
   }
 
+  if (variant === "mobile") {
+    return (
+      <div className="flex flex-col gap-2">
+        {categories.map((category) => (
+          <button
+            key={category.id}
+            onClick={() => handleCategoryClick(category.id)}
+            className={cn(
+              "px-4 py-3 rounded-lg font-medium transition-all text-left w-full focus:outline-none focus:ring-2 focus:ring-orange-500",
+              activeCategory === category.id
+                ? "text-white shadow-lg bg-gradient-to-r"
+                : "bg-gray-100 text-gray-700 hover:bg-gray-200",
+              activeCategory === category.id && getCategoryGradient(category.id),
+            )}
+          >
+            {category.label}
+          </button>
+        ))}
+      </div>
+    )
+  }
+
   return (
     <div className="flex flex-wrap justify-center gap-3">
       {categories.map((category) => (
@@ -62,7 +88,7 @@ export default function CategoryNav({ activeCategory, onCategoryChange }: Catego
           key={category.id}
           onClick={() => handleCategoryClick(category.id)}
           className={cn(
-            "px-6 py-3 rounded-full font-medium transition-all",
+            "px-6 py-3 rounded-full font-medium transition-all focus:outline-none focus:ring-2 focus:ring-orange-500",
             activeCategory === category.id
               ? "text-white shadow-lg bg-gradient-to-r"
               : "bg-white text-gray-700 hover:bg-gray-100",
